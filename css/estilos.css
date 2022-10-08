@@ -1,0 +1,231 @@
+html {
+    margin: 0px;
+    background-color: rgb(160, 101, 53);
+}
+
+.fondo2 {
+    margin: 0px;
+    left: 20%;
+    width: 60%;
+    height: 240%;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+/*                Letras                     */
+
+
+.titulo{
+    position:absolute;
+    top: 3%;
+    left: 28%;
+    font-size: 100px;
+    text-shadow: 4px 4px 0px #925107;
+    mix-blend-mode: screen;
+    animation: fadeIn 2.5s linear forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.textP{
+    position: absolute;
+    top: 65%;
+    left: 23%;
+    right: 23%;
+    text-align: justify;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 19px;
+    color: #f3dbc3;
+}
+
+.tituloCN{
+    position: absolute;
+    top: 93%;
+    left: 57%;
+    text-align: justify;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.textCN{
+    position: absolute;
+    top: 98%;
+    left: 45%;
+    right: 25%;
+    text-align: justify;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 19px;
+    color: black;
+}
+
+.tituloCC{
+    position: absolute;
+    top: 130%;
+    left: 38%;
+    text-align: justify;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.textCC{
+    position: absolute;
+    top: 135%;
+    left: 25%;
+    right: 45%;
+    text-align: justify;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 19px;
+    color: black;
+}
+
+.tituloCM{
+    position: absolute;
+    top: 167%;
+    left: 59%;
+    text-align: justify;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.textCM{
+    position: absolute;
+    top: 171%;
+    left: 45%;
+    right: 25%;
+    text-align: justify;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 19px;
+    color: black;
+}
+
+.tituloCF{
+    position: absolute;
+    top: 205%;
+    left: 39%;
+    text-align: justify;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.textCF{
+    position: absolute;
+    top: 210%;
+    left: 25%;
+    right: 45%;
+    text-align: justify;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 19px;
+    color: black;
+}
+
+
+
+
+/*                Imagenes                   */
+
+.cuadrado {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60%;           
+    height: 18%;          
+    background: rgb(0, 0, 0);        
+}
+
+.cuadrado1 {
+    position: absolute;
+    top: 93%;
+    left: 23%;
+    width: 54%;           
+    height: 30%;          
+    background: #f3dbc3;        
+}
+
+.cuadrado2 {
+    position: absolute;
+    top: 130%;
+    left: 23%;
+    width: 54%;           
+    height: 30%;          
+    background: #f3dbc3;        
+}
+
+.cuadrado3 {
+    position: absolute;
+    top: 167%;
+    left: 23%;
+    width: 54%;           
+    height: 30%;          
+    background: #f3dbc3;        
+}
+
+.cuadrado4 {
+    position: absolute;
+    top: 205%;
+    left: 23%;
+    width: 54%;           
+    height: 30%;          
+    background: #f3dbc3;        
+}
+
+
+
+
+.imagenEn{
+    margin: 0%;
+    position:absolute;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+    /*filter: blur(1px);*/
+}
+
+.imgCN{
+    position:absolute;
+    top: 95%;
+    left: 24%;
+    height: 25%;
+    width: 19%;
+}
+
+.imgCC{
+    position:absolute;
+    top: 132%;
+    left: 57%;
+    height: 25%;
+    width: 19%;
+}
+
+.imgCM{
+    position:absolute;
+    top: 169%;
+    left: 24%;
+    height: 25%;
+    width: 19%;
+}
+
+.imgCF{
+    position:absolute;
+    top: 207%;
+    left: 57%;
+    height: 25%;
+    width: 19%;
+}
